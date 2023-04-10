@@ -1,21 +1,14 @@
-// 2
-// 3
 
-// 
+// 3
+// 12 
 function arrlist() {
-    let arr = [1, 2, 3, 4, 5, 9].reduce((a, b) => {
-        return a + b;
-    })
-    if (arr % 2 == 1) {
-        return false;
-    }
-    else if (arr % 2 == 0) {
-        return true;
-    }
-    console.log(arr)
+    let arr = [1, 2, 3, 4 - 9 - 8, 10, 12, -13];
+    let arr2 = arr.sort();
+    console.log(arr2)
 
 }
+arrlist()
 
-arrlist();
+
 
 
