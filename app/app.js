@@ -1,13 +1,24 @@
 
 // 3
-// 12 
+// 12,3,3,4,4
 function arrlist() {
-    let arr = [1, 2, 3, 4 - 9 - 8, 10, 12, -13];
-    let arr2 = arr.sort();
-    console.log(arr2)
-
+    let arr = [1, 2, 3, 4];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr.length - 1 > arr.length) {
+            return false;
+        }
+        else if (arr.length - 1 < arr.length) {
+            return true
+        }
+    }
 }
-arrlist()
+arrlist();
+
+
+
+
+
+
 
 
 
