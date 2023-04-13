@@ -1,7 +1,18 @@
-// 28
-function sortarr(...arr) {
-    let s = arr.sort();
-    console.log(s)
+// 29 
+class name {
+    constructor(name, last) {
+        this.name = name;
+        this.last = last;
+
+    }
+    syhi() {
+        alert("Hello form the js challenges ");
+
+    }
+    sybo() {
+        alert("By By form ths js challenge challenges ")
+    }
 
 }
-sortarr(-1, -2, 4, 5, 6, 0)
+let name2 = new name("Masoumeh", "Rezai");
+console.log(name2)
