@@ -1,8 +1,7 @@
-let fun = function () {
-    let arr = [1, 2, 3]
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[0],arr,i)
-    }
+// 28
+function sortarr(...arr) {
+    let s = arr.sort();
+    console.log(s)
 
 }
-fun()
+sortarr(-1, -2, 4, 5, 6, 0)
