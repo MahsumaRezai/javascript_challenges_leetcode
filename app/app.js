@@ -1,12 +1,9 @@
-let prime = new Promise(function (resolve, reject) {
-    let text = "Hello";
-    if (text.length >= 10) {
-        alert("your text is ture");
-        return resolve;
-    }
-    else if (text.length <= 10) {
-        alert("your text is not ture");
-        return reject;
+function text() {
+    let text1 = "Hello form the js code";
+    for (let i = 0; i < text1.length; i++) {
+        let text2 = text1.split(" ");
+        console.log(text2)
     }
 
-})
+}
+text();
