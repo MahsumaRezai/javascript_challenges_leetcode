@@ -1,17 +1,18 @@
-let arr = [[1, 2, 3],
-[4, 2, 1],
-[2, 1, 5],
-]
-for (let i = 0; i < arr.length; i++) {
-    arr.reduce((a, b) => {
-        if (b > a) {
-            let arr2 = b + a;
-            console.log(arr2)
+function jumparr(n, m) {
+    if (n > m) {
+        for (let i = 0; i < m; i++) {
+            n++;
+            return n;
 
         }
-        else if (b < a) {
-            return a;
 
+    }
+    else if (n < m) {
+        for (let j = 0; j < m; j++) {
+            n--;
+            return m;
         }
-    })
+    }
+
 }
+jumparr()
